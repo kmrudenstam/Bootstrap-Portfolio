@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+
+<style>
+
+  body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777777;
+  background: url("assets/dust_scratches.png");
+  }
+
+  * {
+  box-sizing: border-box;
+  }
+
+  /* general */
+
+  .container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  }
+
+  h1, h2, h3, p {
+  margin-bottom: 20px;
+  }
+
+  p:last-child {
+  margin-bottom: 0;
+  }
+
+  h1, h2, h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  }
+
+  h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #dddddd;
+  }
+
+  h2, h3 {
+  font-size: 22px;
+  }
+
+  /* header */
+
+  #masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  height: 90px;
+  }
+
+  #logo {
+  float: left;
+  width: 260px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+  }
+
+  .navbar-nav {
+  background: #ffffff;
+  float: right;
+  }
+
+  .profile-picture {
+  max-width: 200px;  
+  height: auto;
+  float: left;
+  margin-right: 15px;
+  }
+
+  nav {
+  float: right;
+  margin-top: 25px;
+  }
+
+  nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+  }
+
+  nav a:first-child {
+  border-left: 0 none;
+  }
+
+  /* footer */
+
+  footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center; 
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  }
+
+  h3, h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eeeeee;
+  }
+
+  /* main */
+
+  #main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+  margin: 0 auto;
+  }
+
+  .main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  }
+
+/* Portfolio Style */
+
+  .work {
+    max-width: 100%;
+    height: auto;
+  }
+
+</style>
+</head>
+
+
+<body>
+
+<header id="masthead">
+  <div class="container">
+    <a href="index.html" id="logo">Karin Rudenstam</a>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <a class="nav-link" href="index.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+</header>
+
+
+<div id="main-container" class="container">
+  <section class="main-section">
+    <div class="row">  
+      <div class="col-12">
+         <h1>Portfolio</h1>
+      </div>   
+    </div>  
+
+    <div class="row">
+      <div class=col-6>
+      
+        <div class="work">
+            <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+    
+            <h3>Word Guess</h3>
+          </div>
+          <div class="work">
+            <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+    
+            <h3>RPG Game</h3>
+          </div>
+          <div class="work">
+            <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+    
+            <h3>Trivia Game</h3>
+          </div>
+
+      </div>
+
+      <div class=col-6>
+        
+        <div class="work">
+          <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+  
+          <h3>Rutgers Info Widget</h3>
+        </div>
+        <div class="work">
+          <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+  
+          <h3>Rock Paper Scissors</h3>
+      </div>
+
+      </div>
+
+  </section>
+</div>
+
+<footer>
+    <div class="row3" class="fixed-bottom"> Copyright ©</div>
+</footer>
+
+
+</body>
+</html>
