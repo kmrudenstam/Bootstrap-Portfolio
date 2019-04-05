@@ -8,66 +8,95 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <title>Contact | Karin Rudenstam</title>
   <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
-
 </head>
 
 
 <body>
 
-<header id="masthead">
- <div class="container"> 
-    <a href="index.html" id="logo">Karin Rudenstam</a>
-  </div>
-  
+  <header id="masthead">
+    <div class="top-container">
+      <a href="index.html" id="logo">Karin Rudenstam</a>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <a class="nav-link" href="index.html">About </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <a class="nav-link" href="index.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-</header>
+  </header>
 
 
 
-<div id="main-container" class="container">
-  <div class="row">  
-    <div class="col-12">
-      <form>
-        <div class="form-group">
-          <h1>Contact</h1>
-          <label for="exampleFormControlInput1">Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <br>
-          <input class="btn btn-primary" type="submit" value="Submit">
-        </div>
-      </form>
+  <div id="main-container" class="container">
+    <div class="row">
+      <div class="col-9">
+        <form>
+          <div class="form-group">
+            <h1>Contact</h1>
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <br>
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
 
-<footer>
-    <nav class="navbar fixed-bottom navbar-light bg-faded" nav id="footer"> 
-      <div id="copyright">Copyright ©</div>
-    </nav> 
-</footer>
+    <div class="col-md-3">
+      <div class="panel panel-primary" id="sidebar">
+
+        <div class="panel-heading">
+          <h1 class="panel-title">Connect</h1>
+        </div>
+
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="https://github.com/kmrudenstam" target="_blank" class="thumbnail">
+                <img src="assets/images/github-128.png" alt="GitHub" class="img-responsive social"></a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="https://www.linkedin.com/in/karin-rudenstam-46b1a861/" target="_blank" class="thumbnail"><img
+                  src="assets/images/linkedin-128.png" alt="LinkedIn" class="img-responsive social"></a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="#" target="_blank" class="thumbnail"><img src="assets/images/resume.jpeg" alt="resume"
+                  class="img-responsive social"></a>
+            </div>
+          </div>
+          <br>
+          karinrudenstam@gmail.com
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <nav class="navbar fixed-bottom navbar-light bg-faded" nav id="footer">
+        <div id="copyright">Copyright ©</div>
+      </nav>
+    </footer>
 
 
 </body>
 
 </html>
-
-

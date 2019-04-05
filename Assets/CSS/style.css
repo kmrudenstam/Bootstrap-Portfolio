@@ -16,7 +16,7 @@ body {
 
 #logo {
     float: left;
-    margin-left: 10%;
+    margin-left: 15%;
     width: 260px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -47,10 +47,22 @@ body {
     width: 100%;
 }
 
+.social {
+	width: 62px;
+    height: 62px;
+}
 
-/* about me */
+#sidebar {
+    background: #ffffff;
+    float: right;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
 
-.img-fluid {
+
+/* about me page */
+
+.profile-picture {
     float: left;
     margin-right: 15px;
     max-width: 100%;
@@ -62,7 +74,7 @@ body {
   
 .container {
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     }
 
 h1, h2, h3, p {
@@ -109,10 +121,9 @@ h1 {
 /* main */
 
 .main-section {
-    padding: 30px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    margin-left: 7%;
+    /* margin-left: 7%; */
 }
 
 
@@ -144,10 +155,10 @@ h1 {
 /* portfolio page */
 
 .main-section {
-    float: left;
+    /* float: left; */
     width: 100%;
     padding: 30px;
-    margin: 0 0 40px;
+    /* margin: 0 0 40px; */
     background: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -169,26 +180,24 @@ h2, h3 {
     font-size: 22px;
 }
 
-.work {
-    position: relative;
-    width: 100%;
-    margin: 20px 0px 25px 0px;
-    overflow: auto;
-}
 
 .img-fluid {
     opacity: 0.8;
 }
 
 .work h3 {
-    position: absolute;
-    bottom: 20px;
+    position: relative;
     width: 100%;
+    margin: 20px 0px 25px 0px;
+    overflow: auto;
     padding: 10px;
-    margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;
+}
+
+.card {
+    margin: 5%;
 }
