@@ -123,7 +123,7 @@ h1 {
 .main-section {
     background: #ffffff;
     border: 1px solid #dddddd;
-    /* margin-left: 7%; */
+    
 }
 
 
@@ -154,11 +154,13 @@ h1 {
 
 /* portfolio page */
 
+.port-image {
+    margin: 20px auto;
+  }
+
 .main-section {
-    /* float: left; */
     width: 100%;
     padding: 30px;
-    /* margin: 0 0 40px; */
     background: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -199,5 +201,6 @@ h2, h3 {
 }
 
 .card {
-    margin: 5%;
+    margin: 2%;
+    margin-bottom: 50px;
 }
